@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste</title>
+    <link rel="shortcut icon" href="img/chanpostamente.png" type="image/x-icon">
+</head>
+<body>
+
+    <!-- LISTA DE TÍTULOS -->
+    <h1>Título principal</h1>
+    <h2>subtítulo1</h2>
+    <h3>subtítulo2</h3>
+    <h4>subtítulo3</h4>
+    <h5>subtítulo4</h5>
+    <h6>subtítulo5</h6>
+
+    <!-- PARÁGRAFO -->
+    <p>Este é um exemplo de parágrafo</p>
+
+    <!-- LINK -->
+    <a href="https://www.youtube.com/@Ismeiow2" target="_blank">Acesse o link</a>
+
+    <!-- IMAGEM -->
+    <img src="./img/chanpostamente.png" alt="Supostamente" width="100px">
+
+    <!-- LISTA ORDEMADA -->
+    <ol>
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+    </ol>
+
+    <!-- LISTA NÃO ORDENADA -->
+    <ul>
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+    </ul>
+
+    <!-- TABELA -->
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Nome</th>
+                <th>Idade</th>
+                <th>Peso</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>João</td>
+                <td>25</td>
+                <td>70.5</td>
+            </tr>
+            <tr>
+                <td>Maria</td>
+                <td>30</td>
+                <td>64</td>
+            </tr>
+            <tr>
+                <td>Carlos</td>
+                <td>28</td>
+                <td>90.6</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="3">Rodapé</td>
+            </tr>
+        </tfoot>
+    </table>
+
+    <!-- FORMULÁRIO -->
+    <br>
+    <form action="" method="post">
+        <label for="nome">Nome:</label>
+        <input type="text" name="nome" placeholder="Digite seu nome">
+
+        <br>
+
+        <label for="email">Email:</label>
+        <input type="email" name="email" placeholder="Digite seu email">
+
+        <br>
+
+        <label for="email">Senha:</label>
+        <input type="password" name="senha" placeholder="Digite sua senha">
+
+        <br>
+
+        <label for="idade">Idade:</label>
+        <input type="number" name="idade" placeholder="Digite sua idade">
+
+        <br>
+
+        <select name="genero" id="">
+            <option value="homem">Homem</option>
+            <option value="mulher" selected>Mulher</option>
+            <option value="naoOp">Não Opinar</option>
+        </select>
+
+        <br>
+
+        <input type="checkbox" name="termos" value="aceito" checked >Li e aceito os termos.
+
+        <br>
+
+
+        <input type="radio" name="casado" value="sim" checked>Sim
+        <input type="radio" name="casado" value="nao">Não
+
+        <br>
+
+        <label for="mensagem">Mensagem:</label>
+        <textarea name="mensagem" id="" rows="5" cols="25"></textarea>
+
+        <br>
+
+        <button type="submit">Enviar</button>
+        <button type="reset">Apagar</button>
+        <button type="button">Limpar dados</button>
+    </form>
+        
+</body>
+</html>
