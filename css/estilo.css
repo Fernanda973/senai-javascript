@@ -1,0 +1,54 @@
+/* CLASS */
+.externo{
+    width: 100px;
+    height: 100px;
+    background-color: mediumpurple;
+    margin-top: 5px;
+}
+/* ID */
+#ex{
+    width: 100px;
+    height: 100px;
+    background-color:  rebeccapurple;
+    margin-top: 5px;
+}
+body{
+    background-color: #000;
+}
+.paragrafo{
+    color: #fff;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-align: center;
+}
+.personagem{
+    width: 500px;
+    height: 500px;
+    background-color: #fff;
+    background-image: url("../img/gojo.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-bottom: 15px;
+}
+.opcoes{
+    width:100px;
+    height: 100px;
+    background-color: mediumslateblue;
+    border: 1px solid #fff;
+    color: #fff;
+    float:left
+}
+.op1{
+    width: 58px;
+    height: 58px;
+    padding: 20px;
+    /* APARECE: */
+    display: block;
+    /* DESAPARECE:
+        display: none; */
+}
+.op2{
+    background-color: #007ac6;
+    margin-left: 5px;
+}

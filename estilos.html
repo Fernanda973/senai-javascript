@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estilos CSS</title>
+    <link rel="shortcut icon" href="./img/chanpostamente.png" type="image/x-icon">
+
+    <!-- LINK CSS -->
+    <link rel="stylesheet" href="css/estilo.css">
+
+    <!-- INTERNO CSS -->
+    <style>
+        /* CLASS */
+        .interno{
+            width: 100px;
+            height: 100px;
+            background-color: blueviolet;
+            margin-top: 5px;
+        }
+        /* ID */
+        #int{
+            width: 100px;
+            height: 100px;
+            background-color: indigo;
+            margin-top: 5px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- INLINE CSS -->
+    <div style="width: 100px; height: 100px; background-color: #58457d;"></div>
+
+    <!-- INTERNO CSS -->
+    <div class="interno"></div>
+    <div id="int"></div>
+
+
+    <!-- EXTERNO CSS -->
+    <div class="externo"></div>
+    <div id="ex"></div>
+
+    <p class="paragrafo">Teste de cor no parágrafo</p>
+
+    <div class="personagem"></div>
+
+    <div class="opcoes op1">Item</div>
+    <div class="opcoes op2">Item</div>
+</body>
+</html>
