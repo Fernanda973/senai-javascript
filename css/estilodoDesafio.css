@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #b642ff6b;
+}
+h1{
+    text-align: center;
+}
+.cor{
+    color: #5f008e;
+    font-family: "Coiny", system-ui;
+}
+.fundo{
+    background-color: rgb(156, 72, 208);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60%;
+}
+.tam{
+    font-size: medium;
+}
+.posicao{
+    margin: 30px;
+    gap: 40px;
+    display: flex;
+}
+table, th, td{
+    width: 20%;
+    border-collapse: collapse;
+    border: 1px solid #000;
+}
+tbody{
+    background-color: #fff;
+}
+.cinza{
+    background-color: gray;
+}
+.verde{
+    background-color: rgb(0, 255, 0);
+}
+.botVerm{
+    background-color: rgb(255, 0, 0);
+}

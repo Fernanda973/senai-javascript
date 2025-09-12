@@ -52,3 +52,8 @@ body{
     background-color: #007ac6;
     margin-left: 5px;
 }
+@media(max-width:600px){
+    body{
+        background-color: bisque;
+    }
+}
