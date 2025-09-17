@@ -32,6 +32,7 @@ table, th, td{
     width: 20%;
     border-collapse: collapse;
     border: 1px solid #000;
+    text-align: center;
 }
 tbody{
     background-color: #fff;
