@@ -1,3 +1,10 @@
+/*FORMAS DE DECLARAR VARIÁVEL:
+ 1- VAR (FORMA MAIS ANTIGA, FUNCIONA EM ESCOPO GLOBAL E LOCAL. POUCO UTILIZADA)
+ 2- LET (FORMA MODERNA, FUNCIONA EM ESCOPO GLOBAL, LOCAL E BLOCO{}. VARIÁVEIS QUE MUDAM DE VALOR)
+ 3- CONST (UTILIZADA PARA VALORES QUE NÃO MUDAM, FUNCIONA EM ESCOPO GLOBAL E LOCAL)
+ */
+
+
 //  STRING
 // let nome = "Fernanda";
 //  INT
@@ -16,14 +23,13 @@
 
 
 /* MASTEMÁTICA 
-
 + - Soma
 - - Subtração
 * - Multiplicação
 / - Divisão
 % - Módulo/Resto da divisão
-
 */
+
 let num1 = 15;
 let num2 = 3;
 
