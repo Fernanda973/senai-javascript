@@ -1,4 +1,9 @@
 /*
+OPEREDORES LÓGICOS:
+&& - E ->  AS DUAS CONDIÇÕES DEVEM SER VERDADEIRAS
+|| - OU -> PELO MENOS UMA CONDIÇÃO TEM QUE SER VERDADEIRA
+! - NÃO -> INVERTE O VALOR DA CONDIÇÃO
+
 console.log("Oi.");
 
 let saudacao = "Olá mundo!";
@@ -18,6 +23,17 @@ if (idade < 12) {
     console.log("RUBÃO?!");
 }
 */
+
+let idade1 = 30;
+let idade1_2 = 20;
+let idade1_3 = 15;
+
+let comparacao = !(idade1 > idade1_2 && idade1_3 > idade1_2);
+
+console.log(comparacao);
+
+
+
 
 let idade2 = 10;
 let nomeKid = "Fernandinha";
