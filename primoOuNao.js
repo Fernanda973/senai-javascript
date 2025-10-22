@@ -1,19 +1,14 @@
 function primos(num) {
     
-    let div = 0;
+    let ret = "É primo";
 
-    for (let cont = num; cont >= 1; cont--) {
+    for (let cont = 2; cont <= num; cont++) {
         if (num % cont == 0) {
-            div++;
+            ret = "Não é primo";
         }
     }
-
-    if (div == 2) {
-        return "O número é primo.";
-    } else {
-        return "O número não é primo.";
-    }
+    return ret;
 }
 
-let retPrimos = primos(4);
+let retPrimos = primos(7);
 console.log(retPrimos);
