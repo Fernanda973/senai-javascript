@@ -31,6 +31,7 @@ let todosSelet = document.querySelectorAll(".item");
 
 
 
+/*
 function mudarTexto(){
     let titulo = document.getElementById('titulo');
     titulo.innerText = "Olá mundo";
@@ -40,8 +41,29 @@ function mudarTexto(){
     titulo.style.fontWeight = "bold";
     titulo.style.fontFamily = "Gill Sans, sans-serif";
 }
+*/
 
+//CLIQUE DO BOTÃO
 let botao = document.getElementById('btn');
 botao.addEventListener('click', function() {
     mudarTexto()
 })
+
+//MUDAR TEXTO
+function mudarTexto(){
+    let titulo = document.getElementById('titulo');
+
+    //titulo.style.background = #009cb8ff;
+
+    if (titulo.className == 'tituloPadrao') {
+        titulo.classList.add('personalizado');
+        titulo.classList.remove('tituloPadrao');
+    }else{
+        titulo.classList.add('tituloPadrao');
+        titulo.classList.remove('personalizado');
+    }
+    
+    titulo.setAttribute('title', 'Passe o mouse aí!');
+    let ident = titulo.getAttribute('data-id');
+    console.log(ident);
+}
